@@ -83,12 +83,12 @@ def image_saver(user_profile):
 
 if __name__ == '__main__':
 
-    MY_SCREEN_NAME = 'lelehanto'
+    MY_SCREEN_NAME = ''
     secret_json = {
-  "access_token": "102966386-TxS8sXOlncQAEF1llRVDsWFKMHFyDvKNMi6R7e73",
-  "access_token_secret": "RoFcg4KrimWSpvCGJ75Sr0lnaZpJRMPVQKBJujOQIX9zv",
-  "consumer_key": "9zH6DJt1IMZBjG0nhDjIxIH0m",
-  "consumer_secret": "uPHVy4KTWOy1C5rpQC3q2jPBfppoDGYEY18nfxnkycUGoqDx9V"}
+  "access_token": "",
+  "access_token_secret": "",
+  "consumer_key": "",
+  "consumer_secret": ""}
 
     t = twitter_access(secret_json)
     profile = get_user_profile(t, MY_SCREEN_NAME)
